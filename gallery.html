@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Laxmi Moulding | CNC Carving Portfolio</title>
+  <meta name="description" content="Browse Laxmi Moulding's portfolio: CNC designs, mandir work, wall panels, furniture carving, decorative mouldings and 3D carving projects." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230a0a0a'/><text y='24' x='4' font-size='22' fill='%23C9A84C'>L</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== LOADER ========== -->
+<div id="loader">
+  <div class="loader-logo">Laxmi Moulding</div>
+  <div style="font-size:0.6rem;letter-spacing:0.35em;color:var(--text-muted);text-transform:uppercase;margin-top:-16px;margin-bottom:8px;">Our Portfolio</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-main">Laxmi Moulding</span>
+    <span class="nav-logo-sub">Precision Craftsmanship Since 2000</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="gallery.html" class="active">Gallery</a></li>
+    <li><a href="inquiry.html">Custom Design</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="inquiry.html">Custom Design</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- ========== PAGE HERO ========== -->
+<div class="page-hero">
+  <div class="container" style="position:relative; z-index:2;">
+    <div class="page-hero-breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span>Gallery</span>
+    </div>
+    <span class="label-tag">Our Portfolio</span>
+    <h1 class="h-display">Gallery &<br><em>Portfolio</em></h1>
+    <p class="text-body" style="margin-top:20px;">
+      Explore our finest work — every piece a testament
+      to precision, artistry and premium craftsmanship.
+    </p>
+  </div>
+</div>
+
+<!-- ========== GALLERY ========== -->
+<section class="section-pad" style="background:var(--black);">
+  <div class="container">
+
+    <!-- Filter Buttons -->
+    <div data-aos="fade-up" style="text-align:center; margin-bottom:16px;">
+      <div class="gallery-filters">
+        <button class="gallery-filter-btn active" data-filter="all">All Work</button>
+        <button class="gallery-filter-btn" data-filter="cnc">CNC Designs</button>
+        <button class="gallery-filter-btn" data-filter="mandir">Mandir</button>
+        <button class="gallery-filter-btn" data-filter="panels">Wall Panels</button>
+        <button class="gallery-filter-btn" data-filter="furniture">Furniture</button>
+        <button class="gallery-filter-btn" data-filter="mouldings">Mouldings</button>
+        <button class="gallery-filter-btn" data-filter="3d">3D CNC</button>
+      </div>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div class="masonry-grid" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="masonry-item" data-category="cnc">
+        <img src="https://images.unsplash.com/photo-1615529162924-f8605388461d?w=600&q=80" alt="CNC design panel" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="panels">
+        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=80" alt="Decorative wall panel" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="furniture">
+        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" alt="Furniture carving" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="3d">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="3D CNC carving" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="mouldings">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Decorative moulding" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="cnc">
+        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80" alt="CNC router work" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="furniture">
+        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80" alt="Luxury furniture" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="panels">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80" alt="Interior wall panel" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="mandir">
+        <img src="https://images.unsplash.com/photo-1565793979559-0e3d6e2bc680?w=600&q=80" alt="Mandir carving" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="3d">
+        <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=600&q=80" alt="3D relief carving" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="mouldings">
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80" alt="Premium moulding" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="cnc">
+        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" alt="CNC precision work" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="furniture">
+        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80" alt="Carved furniture piece" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="panels">
+        <img src="https://images.unsplash.com/photo-1615529162924-f8605388461d?w=600&q=80" alt="Feature wall panel" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="mandir">
+        <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=80" alt="Temple carving detail" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="3d">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="3D wood sculpture" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="cnc">
+        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80" alt="CNC carved panel" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+      <div class="masonry-item" data-category="mouldings">
+        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80" alt="Custom moulding profile" loading="lazy" />
+        <div class="masonry-overlay">
+          <i class="fas fa-expand masonry-icon"></i>
+        </div>
+      </div>
+
+    </div>
+    <!-- End Masonry Grid -->
+
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="section-pad cta-section">
+  <div class="container">
+    <div class="cta-inner" data-aos="fade-up">
+      <div class="cta-text">
+        <span class="label-tag">Commission a Design</span>
+        <h2 class="h-section">Love What<br>You <em>See?</em></h2>
+        <p class="text-body" style="margin-top:16px;">
+          Submit your own design idea and we'll craft it
+          exactly to your specifications and budget.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a href="inquiry.html" class="btn-primary">
+          <span>Custom Design Inquiry</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="contact.html" class="btn-outline">
+          Contact Us <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="nav-logo-main">Laxmi Moulding</span>
+            <span class="nav-logo-sub">Precision Craftsmanship Since 2000</span>
+          </div>
+          <p>Premium CNC carving, custom mouldings and engineered wood solutions across India.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="footer-social"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer-social"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="inquiry.html">Custom Design</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="gallery.html">CNC Designs</a></li>
+            <li><a href="gallery.html">Mandir Work</a></li>
+            <li><a href="gallery.html">Wall Panels</a></li>
+            <li><a href="gallery.html">Furniture Carving</a></li>
+            <li><a href="gallery.html">Mouldings</a></li>
+            <li><a href="gallery.html">3D CNC Work</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact Us</h5>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Opposite Power House, Sikandarpur Bypass, Village Nathupur, Gurugram, Haryana</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 9818539500<br/>+91 9213772747</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>info@laxmimoulding.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Mon–Sun: 9:00 AM – 8:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2024 Laxmi Moulding. All rights reserved.</p>
+      <div class="footer-tagline">Crafted with Precision, Delivered with Pride</div>
+      <p>Designed for Excellence</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== FLOATING WHATSAPP ========== -->
+<div class="whatsapp-float">
+  <div class="whatsapp-tooltip">Chat on WhatsApp</div>
+  <a href="https://wa.me/919818539500" target="_blank" rel="noopener"
+     class="whatsapp-btn" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+<!-- ========== LIGHTBOX ========== -->
+<div id="lightbox" class="lightbox">
+  <button id="lightbox-close" class="lightbox-close">
+    <i class="fas fa-times"></i>
+  </button>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="Gallery Preview" />
+</div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
